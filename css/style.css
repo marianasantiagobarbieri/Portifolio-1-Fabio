@@ -10,7 +10,7 @@ h1{
 }
 
 /* div geral*/
-#LoginBox {
+.LoginBox {
   height: 100vh;
   background: linear-gradient(120deg, #e75590, #00c2cb);
   text-align: center;
@@ -20,7 +20,7 @@ h1{
 
 }
 
-#LoginBox2 {
+.LoginBox2 {
     height: 100vh;
     background: linear-gradient(120deg, #e75590, #00c2cb);
     text-align: center;
@@ -32,7 +32,7 @@ h1{
   }
 
 /* container branco do login*/
-#LoginContainer{
+.LoginContainer{
    min-height: 400px;
    width: 400px;
    background-color: #FFF;
@@ -45,7 +45,7 @@ h1{
    box-shadow: #0000;
 }
 
-#LoginContainer2{
+.LoginContainer2{
     background-color: #FFF;
     box-sizing: border-box;
     padding: 32px;
@@ -56,7 +56,7 @@ h1{
     box-shadow: #0000;
  }
 
-#LoginForm{
+.LoginForm{
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -64,7 +64,7 @@ h1{
   justify-content: center;
 }
 
-#LoginForm2{
+.LoginForm2{
     display: grid;
     align-items: center;
     justify-content: center;
@@ -73,7 +73,7 @@ h1{
   }
 
 /* input do cadastro*/
-#LoginInput{
+.LoginInput{
    height: 48px;
    width: 100%;
    box-sizing: border-box;
@@ -83,29 +83,29 @@ h1{
 }
 
 /*spam/ linha do input */
-#LoginSpam{
+.LoginSpam{
     height: 1px;
     width: 100%;
     margin-bottom: 16px;
     background-color: #cfcfcf;
-    transition: #3s ease-in-out;
+    transition: .3s ease-in-out;
 }
 
-#LoginSpam::after{
+.LoginSpam::after{
     content: '';
     display: block;
     height: 1px;
     width: 0;
     margin-bottom: 16px;  
     background: linear-gradient(120deg, #e75590, #00c2cb);
-    transition: #3s ease-in-out;
+    transition: .3s ease-in-out;
 }
 
-#LoginInput:focus + #LoginSpam::after{
+.LoginInput:focus + .LoginSpam::after{
    width: 100%;
 }
 
-#LoginBotaoCadastrar{
+.LoginBotaoCadastrar{
    height: 48px;
    width: 100%;
    outline: none;
@@ -118,15 +118,15 @@ h1{
    border: unset;
    border-radius: 4px;
    cursor: pointer;
-   transition: #5s ease-in-out;
+   transition: .5s ease-in-out;
 }
 
 /*animacao do botao*/
-#LoginBotaoCadastrar:hover{
+.LoginBotaoCadastrar:hover{
     background-position: right;
 }
 
-#LoginAhref{
+.LoginAhref{
     font-size: 16px;
     color: #949292;
     text-decoration: none;
