@@ -12,7 +12,7 @@ h1{
 /* div geral*/
 .LoginBox {
   height: 100vh;
-  background: linear-gradient(120deg, #e75590, #00c2cb);
+  background: hsl(228, 49%, 29%);
   text-align: center;
   display: flex;
   align-items: center;
@@ -24,7 +24,7 @@ h1{
 .LoginContainer{
    min-height: 400px;
    width: 400px;
-   background-color: #FFF;
+   background-color: hsl(228, 45%, 44%);
    box-sizing: border-box;
    padding: 32px;
    border-radius: 8px;
