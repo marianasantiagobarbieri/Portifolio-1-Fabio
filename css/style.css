@@ -2,35 +2,44 @@ body{
     font-family: sans-serif;
     margin: 0;
     padding: 0;
+    background: linear-gradient(120deg, hsl(235, 81%, 19%), hsl(228, 49%, 29%));
+    
+}
+
+p{
+    font-size: 16px;
+    color: #818181;
 }
 
 h1{
-    margin-bottom: 32px;
-    color: #0a090930;
+    color: #FFF;
+    font-size: 19px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /* div geral*/
 .LoginBox {
-  height: 100vh;
-  background: hsl(228, 49%, 29%);
+    height: 100vh;
   text-align: center;
-  display: flex;
   align-items: center;
-  padding: 0px 0px 0px 450px;
+  padding: 50px 0px 50px 50px;
 
 }
 
 /* container branco do login*/
 .LoginContainer{
    min-height: 400px;
-   width: 400px;
+   width: 250px;
    background-color: hsl(228, 45%, 44%);
    box-sizing: border-box;
    padding: 32px;
    border-radius: 8px;
    display: flex;
    flex-direction: column;
-   align-items: center;
    box-shadow: #0000;
 }
 
@@ -38,8 +47,6 @@ h1{
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 
@@ -69,7 +76,7 @@ h1{
 
 
 .LoginAhref{
-    font-size: 16px;
+    font-size: 11px;
     color: #949292;
     text-decoration: none;
 }
