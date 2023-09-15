@@ -49,6 +49,12 @@ h1{
    box-shadow: #0000;
 }
 
+.LoginContainer:hover{
+    background-color: hsl(228, 50%, 55%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+}
+
 .LoginForm{
   width: 100%;
   display: flex;
