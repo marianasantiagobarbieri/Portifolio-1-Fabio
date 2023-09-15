@@ -23,8 +23,8 @@ h1{
 
 
 .linha {
-    border: 1px solid #000; /* Cor e espessura da linha */
-    margin: 10px 0; /* Espaçamento acima e abaixo da linha */
+    border: 1px solid #3a3a3a; /* Cor e espessura da linha */
+    margin: 8px 0; /* Espaçamento acima e abaixo da linha */
   }
 
 /* div geral*/
