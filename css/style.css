@@ -21,6 +21,12 @@ h1{
     flex-wrap: wrap;
 }
 
+
+.linha {
+    border: 1px solid #000; /* Cor e espessura da linha */
+    margin: 10px 0; /* Espaçamento acima e abaixo da linha */
+  }
+
 /* div geral*/
 .LoginBox {
     height: 100vh;
